@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020-22 The CherishOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+
+    <!-- Paths to the libraries that contain device specific key handlers -->
+    <string-array name="config_deviceKeyHandlerLibs" translatable="false">
+    </string-array>
+
+    <!-- Names of the key handler classes -->
+    <string-array name="config_deviceKeyHandlerClasses" translatable="false">
+    </string-array>
+
+    <!-- Whether device has physical tri state switch -->
+    <bool name="config_hasAlertSlider">false</bool>
+
+    <!-- The location of the devices physical tri state switch
+         0: Left side
+         1: Right side -->
+    <integer name="config_alertSliderLocation">0</integer>
+
+    <!-- Whether key handler sends intent when changing slider position -->
+    <string name="config_alertSliderIntent"></string>
+	
+	<!-- Pocket Mode -->
+    <style name="pocket_view_title">
+        <item name="android:fontFamily">@string/config_headlineFontFamily</item>
+        <item name="android:textSize">@dimen/pocket_view_title_size</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:alpha">0.87</item>
+    </style>
+    <style name="pocket_view_title_cancel">
+        <item name="android:textSize">@dimen/pocket_view_title_cancel_size</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:alpha">0.54</item>
+    </style>
+    <style name="pocket_view_top_tag">
+        <item name="android:textSize">@dimen/pocket_view_top_tag_size</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:alpha">0.54</item>
+    </style>
+	
+	<style name="GlobalActionsAnimation">
+        <item name="windowEnterAnimation">@anim/slide_in_up</item>
+        <item name="windowExitAnimation">@anim/slide_out_down</item>
+    </style>
+
+    <style name="GlobalActionsAnimationTop">
+        <item name="windowEnterAnimation">@anim/slide_in_down</item>
+        <item name="windowExitAnimation">@anim/slide_out_up</item>
+    </style>
+
+    <style name="GlobalActionsAnimationEnter">
+        <item name="windowEnterAnimation">@anim/dialog_enter</item>
+        <item name="windowExitAnimation">@anim/dialog_exit</item>
+    </style>
+	
+	<style name="GlobalActionsAnimationFly">
+        <item name="windowEnterAnimation">@anim/recent_enter</item>
+        <item name="windowExitAnimation">@anim/recent_exit</item>
+    </style>
+
+    <style name="GlobalActionsAnimationTn">
+        <item name="windowEnterAnimation">@anim/tn_toast_enter</item>
+        <item name="windowExitAnimation">@anim/tn_toast_exit</item>
+    </style>
+
+    <style name="GlobalActionsAnimationTranslucent">
+        <item name="windowEnterAnimation">@anim/translucent_enter</item>
+        <item name="windowExitAnimation">@anim/translucent_exit</item>
+    </style>
+
+    <style name="GlobalActionsAnimationXylon">
+        <item name="windowEnterAnimation">@anim/xylon_toast_enter</item>
+        <item name="windowExitAnimation">@anim/xylon_toast_exit</item>
+    </style>
+
+    <style name="GlobalActionsAnimationCard">
+        <item name="windowEnterAnimation">@anim/honami_toast_enter</item>
+        <item name="windowExitAnimation">@anim/honami_toast_exit</item>
+    </style>
+	
+	<style name="GlobalActionsAnimationRotate">
+        <item name="windowEnterAnimation">@anim/rotate</item>
+    </style>
+
+</resources>
