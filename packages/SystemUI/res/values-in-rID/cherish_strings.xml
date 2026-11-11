@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2020 CherishOS
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- LTE QS Tile -->
+    <string name="qs_lte_label">LTE</string>
+    <string name="lte_on">LTE Hidup </string>
+    <string name="lte_off">LTE Mati</string>
+    <!-- Allow devices override audio panel location to the left side -->
+    <string name="statusbar_items_title">Ikon bilah status</string>
+    <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
+    <string name="keyguard_indication_dash_charging_time" formatted="false"><xliff:g id="percentage">%2$s</xliff:g> • Pengisian Daya Cepat (<xliff:g id="charging_time_left" example="4 jam 2 menit">%s</xliff:g> hingga penuh)</string>
+    <string name="keyguard_plugged_in_dash_charging">Pengisian Daya Cepat</string>
+    <!-- Label for current user in power menu options dialog -->
+    <string name="global_action_current_user">Saat ini</string>
+    <!-- Sound QS Tile -->
+    <string name="quick_settings_sound_label">Suara</string>
+    <string name="quick_settings_sound_ring">Dering</string>
+    <string name="quick_settings_sound_vibrate">Getar</string>
+    <string name="quick_settings_sound_mute">Senyap</string>
+    <!-- Indication on the keyguard that is shown when the device is charging with a warp charger. Should match keyguard_plugged_in_warp_charging [CHAR LIMIT=40]-->
+    <string name="keyguard_indication_warp_charging_time" formatted="false"><xliff:g id="percentage">%2$s</xliff:g> • Pengisian Daya Pintar (<xliff:g id="charging_time_left" example="4 jam 2 menit">%s</xliff:g> hingga penuh)</string>
+    <string name="keyguard_plugged_in_warp_charging">Pengisian Daya Pintar</string>
+    <!-- Caffeine QS Tile -->
+    <string name="quick_settings_caffeine_label">Kafein</string>
+    <string name="accessibility_quick_settings_caffeine_off">Kafein nonaktif</string>
+    <string name="accessibility_quick_settings_caffeine_on">Kafein aktif</string>
+    <!-- Heads Up QS Tile -->
+    <string name="quick_settings_heads_up_label">Notifikasi mengambang</string>
+    <string name="accessibility_quick_settings_heads_up_off">Notifikasi mengambang mati.</string>
+    <string name="accessibility_quick_settings_heads_up_on">Notifikasi mengambang aktif.</string>
+    <string name="accessibility_quick_settings_heads_up_changed_off">Notifikasi mengambang dimatikan.</string>
+    <string name="accessibility_quick_settings_heads_up_changed_on">Notifikasi mengambang diaktifkan.</string>
+    <!-- USB tethering QS tile -->
+    <string name="quick_settings_usb_tether_label">Penambatan USB</string>
+    <!-- SleepScreen QS Tile -->
+    <string name="quick_settings_sleepscreen_label">Tidurkan Layar</string>
+    <!-- Ambient display QS tile -->
+    <string name="quick_settings_ambient_display_label">Tampilan Ambien</string>
+    <string name="accessibility_quick_settings_ambient_display_off">Tampilan Ambien mati.</string>
+    <string name="accessibility_quick_settings_ambient_display_on">Tampilan Ambien aktif.</string>
+    <string name="accessibility_quick_settings_ambient_display_changed_off">Tampilan Ambien dinonaktifkan.</string>
+    <string name="accessibility_quick_settings_ambient_display_changed_on">Tampilan Ambien diaktifkan.</string>
+    <!-- DataSwitch Tile -->
+    <string name="qs_data_switch_label">Ubah kartu data</string>
+    <string name="qs_data_switch_toast_0">Tidak ada kartu SIM yang terpasang saat ini</string>
+    <string name="qs_data_switch_toast_1">Hanya satu kartu SIM yang terpasang saat ini</string>
+    <string name="qs_data_switch_changed_1">Gunakan SIM 1 untuk Data Seluler</string>
+    <string name="qs_data_switch_changed_2">Gunakan SIM 2 untuk Data Seluler</string>
+    <!-- Screenshot QS tile -->
+    <string name="quick_settings_screenshot_label">Tangkapan Layar</string>
+    <string name="quick_settings_region_screenshot_label">Tangkapan Layar Sebagian</string>
+    <!-- HW Keys Tile -->
+    <string name="accessibility_quick_settings_hwkeys_on">Tombol Fisik aktif</string>
+    <string name="accessibility_quick_settings_hwkeys_off">Tombol Fisik nonaktif</string>
+    <string name="quick_settings_hwkeys_label">Tombol Fisik</string>
+    <!-- Name of the nfc status bar icon. -->
+    <string name="status_bar_nfc">NFC</string>
+    <!-- Accessibility label for nfc icon (not shown on screen) [CHAR LIMIT=NONE] -->
+    <string name="accessibility_status_bar_nfc">Nfc</string>
+    <string name="status_bar_data_saver">Penghemat Data</string>
+    <string name="status_bar_vpn">VPN</string>
+    <string name="status_bar_roaming">Jelajah</string>
+    <string name="status_bar_ims">VoLTE/VoWiFi</string>
+    <!-- Compass QS Tile -->
+    <string name="quick_settings_compass_label">Kompas</string>
+    <string name="quick_settings_compass_value"><xliff:g id="derajat">%1$.0f</xliff:g>\u00b0<xliff:g id="arah">%2$s</xliff:g></string>
+    <string name="quick_settings_compass_init">Inisialisasi\u2026</string>
+    <string name="accessibility_quick_settings_compass_off">Kompas mati</string>
+    <string name="accessibility_quick_settings_compass_on">Kompas aktif</string>
+    <string name="accessibility_quick_settings_compass_changed_off">Kompas dimatikan</string>
+    <string name="accessibility_quick_settings_compass_changed_on">Kompas diaktifkan</string>
+    <string name="quick_settings_compass_N">U</string>
+    <string name="quick_settings_compass_NE">TL</string>
+    <string name="quick_settings_compass_E">T</string>
+    <string name="quick_settings_compass_SE">TG</string>
+    <string name="quick_settings_compass_S">S</string>
+    <string name="quick_settings_compass_SW">BD</string>
+    <string name="quick_settings_compass_W">B</string>
+    <string name="quick_settings_compass_NW">BL</string>
+    <!-- CPUInfo tile -->
+    <string name="quick_settings_cpuinfo_label">Info CPU</string>
+    <string name="accessibility_quick_settings_cpuinfo_off">Info CPU nonaktif</string>
+    <string name="accessibility_quick_settings_cpuinfo_on">Info CPU aktif</string>
+    <string name="accessibility_quick_settings_cpuinfo_changed_off">Info CPU dinonaktifkan</string>
+    <string name="accessibility_quick_settings_cpuinfo_changed_on">Info CPU diaktifkan</string>
+    <!-- Advance location quick setting tile -->
+    <string name="quick_settings_secondary_location_off"></string>
+    <string name="quick_settings_location_secondary_battery_saving">Penghemat Baterai</string>
+    <string name="accessibility_quick_settings_location_battery_saving">Pelaporan lokasi: mode hemat baterai.</string>
+    <string name="quick_settings_location_secondary_gps_only">Hanya Sensor</string>
+    <string name="accessibility_quick_settings_location_gps_only">Laporan lokasi: mode hanya sensor.</string>
+    <string name="quick_settings_location_secondary_high_accuracy">Akurasi Tinggi</string>
+    <string name="accessibility_quick_settings_location_high_accuracy">Laporan lokasi: mode akurasi tinggi.</string>
+    <string name="omnijaws_service_error">Kesalahan</string>
+    <string name="omnijaws_service_unkown">Tidak ada data cuaca</string>
+    <string name="omnijaws_service_error_long">Kesalahan saat memuat data cuaca</string>
+    <string name="omnijaws_service_disabled">Layanan dinonaktifkan</string>
+    <string name="omnijaws_detail_header">Cuaca</string>
+    <string name="omnijaws_label_default">Cuaca</string>
+    <string name="omnijaws_current_text">Sekarang</string>
+    <string name="omnijaws_package_not_available">OmniJaws tidak tersedia</string>
+    <string name="omnijaws_service_last_update">Pembaruan terakhir:</string>
+    <!-- Reader mode QS tile -->
+    <string name="quick_settings_reading_mode">Mode membaca</string>
+    <string name="accessibility_quick_settings_reading_mode_on">Mode membaca aktif.</string>
+    <string name="accessibility_quick_settings_reading_mode_off">Mode membaca nonaktif.</string>
+    <string name="accessibility_quick_settings_reading_mode_changed_on">Mode membaca diaktifkan.</string>
+    <string name="accessibility_quick_settings_reading_mode_changed_off">Mode membaca dimatikan.</string>
+    <!-- Screenshot Delete Toast -->
+    <string name="delete_screenshot_toast">Tangkapan Layar dihapus</string>
+    <!-- Partial screenshot -->
+    <string name="global_screenshot_selector_capture_description">Menangkap layar sebagian</string>
+    <string name="global_screenshot_selector_cancel_description">Batal menangkap layar sebagian</string>
+    <!-- Headphones Buddy -->
+    <string name="hp_buddy">Sobat Headphone</string>
+    <string name="hp_buddy_left">Hanya kiri</string>
+    <string name="hp_buddy_right">Hanya kanan</string>
+    <string name="hp_buddy_center">Keduanya</string>
+    <string name="hp_buddy_not_connected">Hubungkan headphone Anda</string>
+    <string name="screenrecord_stopdot_label">Tampilkan titik berhenti\nTekan lama untuk memindahkannya</string>
+    <string name="screenrecord_lowquality_label">Kualitas lebih rendah untuk ukuran file yang lebih kecil</string>
+    <string name="app_picker_dialog_title">Pilih aplikasi</string>
+    <string name="app_picker_activity_select_title">Pilih aktivitas</string>
+    <!-- Ambient Music Ticker -->
+    <string name="ambientmusic_songinfo" formatted="false">%s oleh %s</string>
+    <!-- Scrolling Screenshot string -->
+    <string name="scrollss">Gulir</string>
+    <string name="unknown_battery_level">Tidak diketahui</string>
+    <!-- Smart Pixels QS Tile -->
+    <string name="quick_settings_smart_pixels">Piksel Cerdas</string>
+    <string name="quick_settings_smart_pixels_on_power_save">Piksel Cerdas diaktifkan secara otomatis</string>
+    <string name="quick_settings_sound_search">Pencarian Suara</string>
+    <string name="quick_settings_sound_search_no_app">Maaf, ini tidak berfungsi jika Anda tidak memiliki aplikasi pencarian Suara.</string>
+    <string name="quick_settings_monotoggle_tile">Mode Audio</string>
+    <string name="quick_settings_monotoggle_tile_mono">Audio Mono</string>
+    <string name="quick_settings_monotoggle_tile_stereo">Audio Stereo</string>
+    <string name="task_helper_app_killed">%1$s paksa berhenti</string>
+    <string name="empty_app_killed">Aplikasi</string>
+    <string name="quick_settings_killapp_label">Matikan aplikasi</string>
+    <!-- Shows when people have clicked on the custom lockscreen shortcut [CHAR LIMIT=60] -->
+    <string name="lockscreen_default">Bawaan</string>
+    <string name="lockscreen_hidden">Tidak ada</string>
+    <string name="custom_hint">Usap dari ikon untuk meluncurkan</string>
+    <!-- DC Dimming -->
+    <string name="quick_settings_dc_dimming_label">Peredupan DC</string>
+    <string name="quick_settings_dc_brightness_mode">Mode kecerahan</string>
+    <string name="quick_settings_dc_full_auto">Mode Otomatis</string>
+    <!-- App Lock -->
+    <string name="applock_unlock">Membuka</string>
+    <!-- Biometric Dialog - Use Face -->
+    <string name="biometric_dialog_button_use_face">Gunakan Wajah</string>
+    <!-- Power menu QS tile -->
+    <string name="quick_settings_power_menu_label">Menu Daya</string>
+    <!-- Screen pinning dialog description. (for devices without navbar) -->
+    <string name="screen_pinning_description_no_navbar">Hal ini membuatnya tetap dalam pandangan sampai Anda melepas sematan. Sentuh &amp; tahan tombol Kembali untuk melepas sematan.</string>
+    <!-- Notify use that they are in Lock-to-app (for devices without navbar)-->
+    <string name="screen_pinning_toast_no_navbar">Untuk melepaskan sematan layar ini, sentuh &amp; tahan tombol Kembali</string>
+    <!-- Screen pinning dialog description. (for devices without navbar and with gestures on fingerprint sensor) -->
+    <string name="screen_pinning_description_no_navbar_fpsensor">Mode ini akan membuat tampilan pada layar tidak bisa diganti sampai anda melepas pin. Sentuh &amp; tahan pemindai sidik jari untuk melepas pin.</string>
+    <!-- Notify use that they are in Lock-to-app (for devices without navbar and with gestures on fingerprint sensor)-->
+    <string name="screen_pinning_toast_no_navbar_fpsensor">Untuk melepaskan pin pada layar ini, sentuh &amp; tahan pemindai sidik jari</string>
+    <!-- Power Menu -->
+    <string name="global_action_restart_advanced">Lanjutan</string>
+    <string name="global_action_restart_recovery">Pemulihan</string>
+    <string name="global_action_restart_bootloader">Bootloader</string>
+    <string name="global_action_restart_ui">Sistem UI</string>
+    <!-- AOD QS tile -->
+    <string name="quick_settings_aod_label">AOD</string>
+    <string name="quick_settings_aod_off_powersave_label">AOD nonaktif\nPenghemat baterai</string>
+    <!-- Sync QS tile -->
+    <string name="quick_settings_sync_label">Sinkronisasi</string>
+    <string name="accessibility_quick_settings_sync_off">Sinkronisasi mati.</string>
+    <string name="accessibility_quick_settings_sync_on">Sinkronisasi hidup.</string>
+    <string name="accessibility_quick_settings_sync_changed_off">Sinkronisasi dinonaktifkan.</string>
+    <string name="accessibility_quick_settings_sync_changed_on">Sinkronisasi dihidupkan.</string>
+    <!-- VPN QS tile -->
+    <string name="quick_settings_vpn_label">VPN</string>
+    <string name="quick_settings_vpn_connect_dialog_title">Terhubung ke\u2026</string>
+    <string name="vpn_credentials_hint">Silakan masukkan kredensial Anda untuk menghubungkan ke <xliff:g id="name">%s</xliff:g></string>
+    <string name="vpn_credentials_username">Nama pengguna</string>
+    <string name="vpn_credentials_password">Kata sandi</string>
+    <string name="vpn_credentials_dialog_connect">Sambungkan</string>
+    <string name="clock_title_squary_clock">Cal Clock</string>
+    <!-- Indication on the keyguard that is shown when the device is charging with a VOOC charger. Should match keyguard_plugged_in_vooc_charging [CHAR LIMIT=40]-->
+    <string name="keyguard_indication_vooc_charging_time" formatted="false"><xliff:g id="percentage">%2$s</xliff:g> • Pengisian VOOC (<xliff:g id="charging_time_left" example="4 jam 2 menit">%1$s</xliff:g> hingga penuh)</string>
+    <string name="keyguard_plugged_in_vooc_charging">Pengisian VOOC</string>
+    <!-- Anti flicker QS tile -->
+    <string name="quick_settings_anti_flicker">Anti kerlip</string>
+    <!-- Data usage info -->
+    <string name="usage_data">digunakan</string>
+    <string name="usage_data_today">digunakan hari ini</string>
+    <string name="usage_wifi_prefix">Wi-Fi</string>
+    <string name="usage_data_prefix">Data</string>
+    <!-- Alert slide extras -->
+    <string name="volume_ringer_priority_only">Prioritas</string>
+    <string name="volume_ringer_alarms_only">Alarm</string>
+    <string name="volume_ringer_dnd">DND</string>
+    <string name="tristate_flashlight_on">Senter menyala</string>
+    <string name="tristate_flashlight_off">Senter mati</string>
+    <string name="tristate_flashlight_blink">Senter berkedip</string>
+    <string name="tristate_brightness_bright">Kecerahan maksimum</string>
+    <string name="tristate_brightness_dark">Kecerahan minimum</string>
+    <string name="tristate_brightness_auto">Kecerahan Otomatis</string>
+    <string name="tristate_rotation_auto">Rotasi Otomatis</string>
+    <string name="tristate_rotation_0">Potret</string>
+    <string name="tristate_rotation_90">Lanskap (90°)</string>
+    <string name="tristate_rotation_270">Lanskap (270°)</string>
+    <!-- Label for area where tiles can be added to the qs panel -->
+    <string name="drag_or_tap_to_add_tiles">Hold &amp; drag or tap to add tiles</string>
+    <!-- Label for header of customize QS -->
+    <string name="drag_or_tap_to_rearrange_tiles">Hold &amp; drag to rearrange or tap to remove</string>
+    <!-- accessibility label for button to open running apps prefscreen [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_running_services">Buka layar Layanan Berjalan.</string>
+    <!-- Kill button in notification guts -->
+    <string name="force_stop_dlg_title">Force stop?</string>
+    <string name="force_stop_dlg_text">If you force stop an app, it may misbehave.</string>
+    <string name="guts_force_close_app">Close App</string>
+    <!-- Sleep Mode -->
+    <string name="quick_settings_sleep_mode_label">Mode Tidur</string>
+    <!-- Accessibility label for button to toggle auto brightness [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_auto_brightness">Toggle auto brightness.</string>
+    <!-- PowerShare QS tile -->
+    <string name="quick_settings_powershare_label">Wireless PowerShare</string>
+    <string name="quick_settings_powershare_off_powersave_label">Wireless PowerShare off\nBattery saver</string>
+    <string name="quick_settings_powershare_off_low_battery_label">Wireless PowerShare off\nBattery too low</string>
+    <string name="quick_settings_powershare_enabled_label">Wireless PowerShare is enabled</string>
+    <!-- Weather string format in expanded statusbar header -->
+    <string name="status_bar_weather_format"><xliff:g id="temp">%1$s</xliff:g></string>
+    <!-- FPS Info tile -->
+    <string name="quick_settings_fpsinfo_label">Info FPS</string>
+    <string name="accessibility_quick_settings_fpsinfo_off">Info FPS nonaktif</string>
+    <string name="accessibility_quick_settings_fpsinfo_on">Info FPS aktif</string>
+</resources>

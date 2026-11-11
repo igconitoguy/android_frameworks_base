@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Button that copies the url to the log of a crashed application -->
+    <string name="aerr_copy">کپی کردن آدرس گزارش خرابی</string>
+    <string name="url_copy_success">آدرس با موفقیت کپی شد</string>
+    <string name="url_copy_failed">مشکلی در حین آپلود کردن گزارش به dogbin رخ داد</string>
+    <!-- Whether notify fingerprint client of successful cancelled authentication -->
+    <!-- LiveDisplay strings -->
+    <string name="live_display_auto">خودکار</string>
+    <string name="live_display_auto_summary">تنظیم خودکار دمای رنگ صفحه نمایش بعد از غروب و طلوع آفتاب</string>
+    <string name="live_display_off">خاموش</string>
+    <string name="live_display_off_summary">غیر فعال کردن تمامی تغییرات</string>
+    <string name="live_display_day">روز</string>
+    <string name="live_display_day_summary">فقط استفاده از تنظیمات روز</string>
+    <string name="live_display_night">شب</string>
+    <string name="live_display_night_summary">فقط استفاده از تنظیمات شب</string>
+    <string name="live_display_outdoor">فضای باز</string>
+    <string name="live_display_outdoor_summary">فقط استفاده از تنظیمات فضای باز</string>
+    <string name="live_display_hint">صفحه پویا می تواند خستگی چشم را کاهش داده و به خواب شما کمک کند. کلیک کنید و آن را امتحان کنید!</string>
+    <string name="accessibility_quick_settings_live_display_off">نمایش پویا خاموش.</string>
+    <string name="accessibility_quick_settings_live_display_auto">صفحه پویا: حالت خودکار.</string>
+    <string name="accessibility_quick_settings_live_display_day">صفحه پویا: حالت روز.</string>
+    <string name="accessibility_quick_settings_live_display_night">صفحه پویا: حالت شب.</string>
+    <string name="accessibility_quick_settings_live_display_outdoor">صفحه پویا: حالت فضای باز.</string>
+    <string name="accessibility_quick_settings_live_display_changed_off">صفحه پویا خاموش شد</string>
+    <string name="accessibility_quick_settings_live_display_changed_auto">صفحه پویا به حالت خودکار تغییر کرد</string>
+    <string name="accessibility_quick_settings_live_display_changed_day">صفحه پویا به حالت روز تغییر کرد.</string>
+    <string name="accessibility_quick_settings_live_display_changed_night">صفحه پویا به حالت شب تغییر کرد.</string>
+    <string name="accessibility_quick_settings_live_display_changed_outdoor">صفحه پویا به حالت فضای باز تغییر کرد.</string>
+    <!-- Pocket Lock -->
+    <string name="pocket_lock_message_long_press">کلید پاور را برای بازکردن فشار داده و نگه دارید</string>
+    <!-- SystemUI Restart -->
+    <string name="systemui_restart_title">رابط کاربری نیازمندِ راه‌اندازی مجدد است</string>
+    <string name="systemui_restart_message">اِعمال همه تغییرات ، به راه‌اندازی مجدد رابط کاربری نیاز دارد. رابط کاربری راه اندازی مجدد شود?</string>
+    <!-- Alert slider proc nodes paths. -->
+    <string name="alert_slider_state_path"></string>
+    <string name="alert_slider_uevent_match_path"></string>
+    <!-- Power Menu -->
+    <string name="reboot_title">Reboot</string>
+    <string name="reboot_message">Rebooting system</string>
+    <!-- Clipboard access toast -->
+    <string name="app_clipboard_access_denied">%1$s was denied access to the clipboard</string>
+    <string name="app_clipboard_access_granted">%1$s was granted access to the clipboard</string>
+    <!-- [CHAR LIMIT=NONE] Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_accessFontManager">access font manager</string>
+    <!-- [CHAR LIMIT=NONE] Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_accessFontManager">Allows an application to access the font manager.</string>
+    <!-- [CHAR LIMIT=NONE] Error when a package is installed but got the missing fonts.xml file, notifying the user why it isn't showing up. -->
+    <string name="fontservice_incompatible_font">The font package you\'ve installed is not compatible due to missing fonts.xml on their files. Please contact the package developer for support.</string>
+    <!-- Pocket Lock -->
+    <string name="pocket_view_title">Pocket mode is on</string>
+    <string name="pocket_view_title_cancel">To activate your phone:</string>
+    <string name="pocket_view_top_tag_cancel">Do not cover the blue area of your phone, and clean any dirt or dust off.</string>
+    <string name="pocket_view_top_tag_cancel2">Long press the power button to force quit pocket mode</string>
+    <string name="pocket_view_top_tag_number1">1.\u0020</string>
+    <string name="pocket_view_top_tag_number2">2.\u0020</string>
+    <!-- Sleep Mode -->
+    <string name="notification_channel_sleep">Sleep Mode</string>
+    <string name="sleep_mode_notification_title">Sleep mode enabled</string>
+    <string name="sleep_mode_notification_content">Tap to turn off sleep mode</string>
+    <string name="sleep_mode_enabled_toast">Sleep mode turned on</string>
+    <string name="sleep_mode_disabled_toast">Sleep mode turned off</string>
+</resources>

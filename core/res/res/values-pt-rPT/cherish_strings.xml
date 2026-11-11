@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Button that copies the url to the log of a crashed application -->
+    <string name="aerr_copy">Copiar o URL do registo da falha</string>
+    <string name="url_copy_success">URL copiado com sucesso</string>
+    <string name="url_copy_failed">An error occured while uploading the log to dogbin</string>
+    <!-- Whether notify fingerprint client of successful cancelled authentication -->
+    <!-- LiveDisplay strings -->
+    <string name="live_display_auto">Automático</string>
+    <string name="live_display_auto_summary">Ajusta automaticamente a temperatura da cor do ecrâ após o pôr e o nascer do sol</string>
+    <string name="live_display_off">Desactivado</string>
+    <string name="live_display_off_summary">Desactivar todos os ajustes</string>
+    <string name="live_display_day">Dia</string>
+    <string name="live_display_day_summary">Usar apenas as definições do dia</string>
+    <string name="live_display_night">Noite</string>
+    <string name="live_display_night_summary">Usar apenas as definições da noite</string>
+    <string name="live_display_outdoor">Exterior (sol forte)</string>
+    <string name="live_display_outdoor_summary">Usa apenas as definições do exterior</string>
+    <string name="live_display_hint">O LiveDisplay pode ajudar a reduzir a fadiga ocular e a dormir melhor à noite. Toque aqui para experimentar!</string>
+    <string name="accessibility_quick_settings_live_display_off">LiveDisplay desligado.</string>
+    <string name="accessibility_quick_settings_live_display_auto">LiveDisplay: modo automático.</string>
+    <string name="accessibility_quick_settings_live_display_day">LiveDisplay: modo dia.</string>
+    <string name="accessibility_quick_settings_live_display_night">LiveDisplay: modo noite.</string>
+    <string name="accessibility_quick_settings_live_display_outdoor">LiveDisplay: modo exterior.</string>
+    <string name="accessibility_quick_settings_live_display_changed_off">LiveDisplay foi desligado.</string>
+    <string name="accessibility_quick_settings_live_display_changed_auto">LiveDisplay alterado para o modo automático.</string>
+    <string name="accessibility_quick_settings_live_display_changed_day">LiveDisplay alterado para modo dia.</string>
+    <string name="accessibility_quick_settings_live_display_changed_night">LiveDisplay alterado para o modo noite.</string>
+    <string name="accessibility_quick_settings_live_display_changed_outdoor">LiveDisplay alterado para modo exterior.</string>
+    <!-- Pocket Lock -->
+    <string name="pocket_lock_message_long_press">Para desbloquear pressione e mantenha pressionado o botão de ligar</string>
+    <!-- SystemUI Restart -->
+    <string name="systemui_restart_title">É necessário o reinício da Ui do sistema</string>
+    <string name="systemui_restart_message">Para que todas as alterações tenham efeito, é necessário reiniciar a Ui do sistema. Reiniciar agora o Ui do sistema?</string>
+    <!-- Alert slider proc nodes paths. -->
+    <string name="alert_slider_state_path"></string>
+    <string name="alert_slider_uevent_match_path"></string>
+    <!-- Power Menu -->
+    <string name="reboot_title">Reboot</string>
+    <string name="reboot_message">Rebooting system</string>
+    <!-- Clipboard access toast -->
+    <string name="app_clipboard_access_denied">%1$s was denied access to the clipboard</string>
+    <string name="app_clipboard_access_granted">%1$s was granted access to the clipboard</string>
+    <!-- [CHAR LIMIT=NONE] Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_accessFontManager">access font manager</string>
+    <!-- [CHAR LIMIT=NONE] Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_accessFontManager">Allows an application to access the font manager.</string>
+    <!-- [CHAR LIMIT=NONE] Error when a package is installed but got the missing fonts.xml file, notifying the user why it isn't showing up. -->
+    <string name="fontservice_incompatible_font">The font package you\'ve installed is not compatible due to missing fonts.xml on their files. Please contact the package developer for support.</string>
+    <!-- Pocket Lock -->
+    <string name="pocket_view_title">Pocket mode is on</string>
+    <string name="pocket_view_title_cancel">To activate your phone:</string>
+    <string name="pocket_view_top_tag_cancel">Do not cover the blue area of your phone, and clean any dirt or dust off.</string>
+    <string name="pocket_view_top_tag_cancel2">Long press the power button to force quit pocket mode</string>
+    <string name="pocket_view_top_tag_number1">1.\u0020</string>
+    <string name="pocket_view_top_tag_number2">2.\u0020</string>
+    <!-- Sleep Mode -->
+    <string name="notification_channel_sleep">Sleep Mode</string>
+    <string name="sleep_mode_notification_title">Sleep mode enabled</string>
+    <string name="sleep_mode_notification_content">Tap to turn off sleep mode</string>
+    <string name="sleep_mode_enabled_toast">Sleep mode turned on</string>
+    <string name="sleep_mode_disabled_toast">Sleep mode turned off</string>
+</resources>
